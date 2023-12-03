@@ -1,0 +1,143 @@
+### Computer Network full free course
+
+1. **What is network?**
+- -  A computer network is defined as a system that connects two or more computing devices for transmitting and sharing information
+
+### 2. Two type of computer network
+- Private network
+- Public network
+
+### Classification on services
+- Centralized Network
+- Distrinuted Network
+- Hybride Network
+
+### Classification on area
+- 1. Personal Area Network --> PAN
+
+- - client server network
+- - peer to peer network
+
+- 2. Local Area Network --> LAN
+- 3. Metropolitan Area Network --> MAN
+- 4. Wide Area Network --> WAN
+
+### OSI model (open system interconnection)
+1. Application layer
+2. Presentation layer
+3. Session layer
+4. Transport layer
+5. Network layer
+6. Datalink layer
+7. Physical layer
+
+    ### 1.Aplication layer
+    - Network services for user
+    - Work by port number
+    - user supported totally
+
+    ### 2.Presentation layer
+    - Translation
+    - Encryption
+    - Compression
+
+    ### 3.Session layer
+    - Establishing
+    - Synchronization
+
+    ### 4.Transport layer
+    - Process to process delivery
+    - segmentation
+    - connection controlling
+    - error controlling
+    - flow controlling
+
+    ### 5.Network layer
+    - providing best path
+    - routing
+    - logical addressing
+
+    ### 6.Datalink layer
+    - physical addressing
+    - error cortrol
+    - access control
+    - folw control
+    - flaming
+
+    ### 7.Physical layer
+    - singal enconding
+    - medium
+    - bit synchronization
+    - transmission type
+    - tranimission mode
+    - topology
+    - multiplexing
+    - singal type
+
+### Network topology
+- A network topology is the physical and logical arrangement of nodes and connections in a network.
+
+   - **6 type of network topology**
+         - Star topology
+         - bus topology
+         - ring topology
+         - mesh topology
+         - tree topology
+         - hybrid topology
+
+         1. Star topology is a network topology in which each network component is physically connected to a central node such as a router, hub or switch
+         2. Bus topology is a specific kind of network topology in which all of the various devices in the network are connected to a single cable or line.
+         3. A ring topology is a network configuration where device connections create a closed circular data path. Each networked device is connected
+         4. A mesh topology is a network setup where each computer and network device is interconnected with one another.
+         5. A tree topology is a sort of structure in which each node is related to the others in a hierarchy.
+         6. As the term suggests, hybrid topology is a type of network topology in which two or more different topologies are integrated or combined to lay out a network. In layman's terms, hybrid topology is the combination of two or more networks. The network type could be Star, Ring, Bus, or Mesh.
+
+
+### IP ADDRESSS CLASSES RANGE
+
+|address class|        range                |default subnet mask|
+-----------------------------------------------------------------
+|a            |1.0.0.0 to 126.255.255.255   |255.0.0.0          |
+|b            |128.0.0.0 to 191.255.255.255 |255.255.0.0        |
+|c            |192.0.0.0 to 223.255.255.255 |255.255.255.0      |
+|d            |224.0.0.0 to 239.255.255.255 |reserved for       |
+|e            |240.0.0.0 to 254.255.255.255 |experimental       |
+
+### class a              ### class b           ### class c
+--------------------------------------------------------------------
+|N|H|H|H|                |N|N|H|H|              |N|N|N|H|
+|7|8|8|8|                |6|7|8|8|              |5|7|7|8|
+|Network id:(2^7)-2|     |Network id:(2^12)|    | Network id:(2^21)|
+|=126              |     |=16.384          |    | =20.97152        |
+
+|Host id:(2^24)-2  |     |Host id:(2^16)-2 |    |Host id:(2^8)-2   |
+|=1.67.77.214      |     |=65.534          |    |=254              |
+
+### Public IP, Private IP, Global IP, Local IP, Static IP, Dynamic IP
+   1. **Public>>** A public IP address is an outward-facing IP address used to access the Internet. Public IP addresses are provided by an internet service provider (ISP) and assigned to the router. It is a unique IP address on the Internet.
+   2. **Private>>** Your network has a range of (private) IP addresses that your router can assign to your devices at a given time, as the devices connect or disconnect to the web.
+   3. **Global>>** A global IP address is meant to be publicly accessible from the Internet. A local-scope IP address is not routable to the Internet. This means that if your device is assigned local-scope address, your device will not be able to access the Internet, however you will still be able to access campus network resources.
+   4. **Local>>** A Local IP address is the identifier (IPv4 or IPv6) that is assigned to your laptop, PC, mobile and any other device within your local network.
+   5. **Static>>** If your computer is hosting a web server, its IP address is what identifies it to the rest of the Internet. A computer on the Internet can have a static IP address, which means it stays the same over time, or a dynamic IP address, which means the address can change over time.
+   6.**Dynamic>>** A dynamic IP address is an IP address that an ISP lets you use temporarily. If a dynamic address is not in use, it can be automatically assigned to a different device. Dynamic IP addresses are assigned using either DHCP or PPPoE
+
+### TCP (transmission control protocol)
+   - connection oriented
+   - reliable
+   - error controlis mandatory
+   - slow transmission
+   - more overhead(20.60)
+   - flow control congestion
+   - http,ftp,smtp
+
+### (User Datagram Protocol)
+   - connection less
+   - less reliable
+   - error control is options
+   - fast transmission
+   - less overhead(8 byte)
+   - no flow,congestion control
+   - dns,bootp,dhcp,rip
+
+### TUTORIAL BLOW to learn free network basic
+  Link https://www.youtube.com/watch?v=0MblukkXn18&list=PLab5XCu7ERqDeo4jsQyxbkWvv4w-0wTQk
